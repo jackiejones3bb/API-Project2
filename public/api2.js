@@ -1,7 +1,7 @@
 // 858465360c854232c8a8f6e84b70e75f
 // http://api.coinlayer.com/api/live?access_key=858465360c854232c8a8f6e84b70e75f - live
 
-const baseUrl = `http://api.coinlayer.com/api/`;
+const baseUrl = `https://api.coinlayer.com/api/`;
 const apiKey = `858465360c854232c8a8f6e84b70e75f`;
 
 // top level function that calls and gets data and calls formatting functions
