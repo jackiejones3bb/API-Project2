@@ -122,11 +122,11 @@ function formatCurrency(value) {
 // checking to see if image exists & provide default image if not
 function getCoinImage(name) {
   let image = new Image();
-  image.src = `./img/svg/color/${name}.svg`;
+  image.src = `img/svg/color/${name}.svg`;
   if (image.width == 0) {
-    return `./img/svg/black/USD.svg`;
+    return `img/svg/black/USD.svg`;
   } else {
-    return `./img/svg/color/${name}.svg`;
+    return `img/svg/color/${name}.svg`;
   }
 }
 
